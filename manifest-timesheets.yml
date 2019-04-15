@@ -2,11 +2,11 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-akanksha.apps.chicken.pal.pivotal.io
+  - route: timesheets-pal-suman.cfapps.io
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-akanksha.apps.chicken.pal.pivotal.io
+    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-suman.cfapps.io
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
   - tracker-timesheets-database
