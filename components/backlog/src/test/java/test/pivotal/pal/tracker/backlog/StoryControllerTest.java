@@ -1,18 +1,18 @@
 package test.pivotal.pal.tracker.backlog;
 
-import io.pivotal.pal.tracker.backlog.*;
-import io.pivotal.pal.tracker.backlog.data.StoryDataGateway;
-import io.pivotal.pal.tracker.backlog.data.StoryRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.*;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryDataGateway;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryRecord;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-import static io.pivotal.pal.tracker.backlog.StoryForm.storyFormBuilder;
-import static io.pivotal.pal.tracker.backlog.StoryInfo.storyInfoBuilder;
-import static io.pivotal.pal.tracker.backlog.data.StoryFields.storyFieldsBuilder;
-import static io.pivotal.pal.tracker.backlog.data.StoryRecord.storyRecordBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.StoryForm.storyFormBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.StoryInfo.storyInfoBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryFields.storyFieldsBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryRecord.storyRecordBuilder;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.anyLong;

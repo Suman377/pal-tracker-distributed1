@@ -3,7 +3,7 @@ package test.pivotal.pal.tracker;
 
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.PathNotFoundException;
-import io.pivotal.pal.tracker.testsupport.TestScenarioSupport;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.testsupport.TestScenarioSupport;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

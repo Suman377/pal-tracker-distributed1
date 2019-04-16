@@ -1,14 +1,14 @@
 package test.pivotal.pal.tracker.backlog;
 
-import io.pivotal.pal.tracker.backlog.StoryForm;
-import io.pivotal.pal.tracker.backlog.StoryInfo;
-import io.pivotal.pal.tracker.backlog.data.StoryFields;
-import io.pivotal.pal.tracker.backlog.data.StoryRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.StoryForm;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.StoryInfo;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryFields;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryRecord;
 
-import static io.pivotal.pal.tracker.backlog.StoryForm.storyFormBuilder;
-import static io.pivotal.pal.tracker.backlog.StoryInfo.storyInfoBuilder;
-import static io.pivotal.pal.tracker.backlog.data.StoryFields.storyFieldsBuilder;
-import static io.pivotal.pal.tracker.backlog.data.StoryRecord.storyRecordBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.StoryForm.storyFormBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.StoryInfo.storyInfoBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryFields.storyFieldsBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.data.StoryRecord.storyRecordBuilder;
 
 public class TestBuilders {
 

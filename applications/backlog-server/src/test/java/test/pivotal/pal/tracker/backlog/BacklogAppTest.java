@@ -1,6 +1,6 @@
 package test.pivotal.pal.tracker.backlog;
 
-import io.pivotal.pal.tracker.backlog.App;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.backlog.App;
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
 

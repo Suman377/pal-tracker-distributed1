@@ -1,14 +1,14 @@
 package test.pivotal.pal.tracker.projects;
 
-import io.pivotal.pal.tracker.projects.ProjectForm;
-import io.pivotal.pal.tracker.projects.ProjectInfo;
-import io.pivotal.pal.tracker.projects.data.ProjectFields;
-import io.pivotal.pal.tracker.projects.data.ProjectRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.ProjectForm;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.ProjectInfo;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.data.ProjectFields;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.data.ProjectRecord;
 
-import static io.pivotal.pal.tracker.projects.ProjectForm.projectFormBuilder;
-import static io.pivotal.pal.tracker.projects.ProjectInfo.projectInfoBuilder;
-import static io.pivotal.pal.tracker.projects.data.ProjectFields.projectFieldsBuilder;
-import static io.pivotal.pal.tracker.projects.data.ProjectRecord.projectRecordBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.ProjectForm.projectFormBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.ProjectInfo.projectInfoBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.data.ProjectFields.projectFieldsBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.data.ProjectRecord.projectRecordBuilder;
 
 public class TestBuilders {
 

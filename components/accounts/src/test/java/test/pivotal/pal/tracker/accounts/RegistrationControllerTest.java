@@ -1,10 +1,10 @@
 package test.pivotal.pal.tracker.accounts;
 
-import io.pivotal.pal.tracker.accounts.RegistrationController;
-import io.pivotal.pal.tracker.accounts.RegistrationForm;
-import io.pivotal.pal.tracker.accounts.RegistrationService;
-import io.pivotal.pal.tracker.users.UserInfo;
-import io.pivotal.pal.tracker.users.data.UserRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.RegistrationController;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.RegistrationForm;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.RegistrationService;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.users.UserInfo;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.users.data.UserRecord;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

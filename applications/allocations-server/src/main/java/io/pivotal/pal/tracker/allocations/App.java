@@ -1,5 +1,6 @@
 package io.pivotal.pal.tracker.allocations;
 
+import io.pivotal.pal.tracker.allocations.tracker.allocations.ProjectClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,8 +22,8 @@ public class App {
 
     @Bean
     ProjectClient projectClient(
-        RestOperations restOperations,
-        @Value("${registration.server.endpoint}") String registrationEndpoint
+            RestOperations restOperations,
+            @Value("${registration.server.endpoint}") String registrationEndpoint
     ) {
         return new ProjectClient(restOperations, registrationEndpoint);
     }

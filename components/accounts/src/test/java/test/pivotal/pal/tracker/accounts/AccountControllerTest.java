@@ -1,15 +1,15 @@
 package test.pivotal.pal.tracker.accounts;
 
-import io.pivotal.pal.tracker.accounts.AccountController;
-import io.pivotal.pal.tracker.accounts.AccountInfo;
-import io.pivotal.pal.tracker.accounts.data.AccountDataGateway;
-import io.pivotal.pal.tracker.accounts.data.AccountRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.AccountController;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.AccountInfo;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.data.AccountDataGateway;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.data.AccountRecord;
 import org.junit.Test;
 
 import java.util.List;
 
-import static io.pivotal.pal.tracker.accounts.AccountInfo.accountInfoBuilder;
-import static io.pivotal.pal.tracker.accounts.data.AccountRecord.accountRecordBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.AccountInfo.accountInfoBuilder;
+import static io.pivotal.pal.tracker.allocations.tracker.eurekaserver.accounts.data.AccountRecord.accountRecordBuilder;
 import static java.util.Collections.singletonList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.ArgumentMatchers.anyLong;

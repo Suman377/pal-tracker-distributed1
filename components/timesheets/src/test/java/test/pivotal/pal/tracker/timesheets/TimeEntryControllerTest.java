@@ -1,9 +1,9 @@
 package test.pivotal.pal.tracker.timesheets;
 
-import io.pivotal.pal.tracker.timesheets.*;
-import io.pivotal.pal.tracker.timesheets.data.TimeEntryDataGateway;
-import io.pivotal.pal.tracker.timesheets.data.TimeEntryFields;
-import io.pivotal.pal.tracker.timesheets.data.TimeEntryRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.timesheets.*;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.timesheets.data.TimeEntryDataGateway;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.timesheets.data.TimeEntryFields;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.timesheets.data.TimeEntryRecord;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

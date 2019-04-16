@@ -1,9 +1,9 @@
 package test.pivotal.pal.tracker.users;
 
-import io.pivotal.pal.tracker.users.UserController;
-import io.pivotal.pal.tracker.users.UserInfo;
-import io.pivotal.pal.tracker.users.data.UserDataGateway;
-import io.pivotal.pal.tracker.users.data.UserRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.users.UserController;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.users.UserInfo;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.users.data.UserDataGateway;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.users.data.UserRecord;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

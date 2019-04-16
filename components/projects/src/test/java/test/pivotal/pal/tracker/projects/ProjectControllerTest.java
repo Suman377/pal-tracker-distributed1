@@ -1,9 +1,9 @@
 package test.pivotal.pal.tracker.projects;
 
-import io.pivotal.pal.tracker.projects.ProjectController;
-import io.pivotal.pal.tracker.projects.ProjectInfo;
-import io.pivotal.pal.tracker.projects.data.ProjectDataGateway;
-import io.pivotal.pal.tracker.projects.data.ProjectRecord;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.ProjectController;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.ProjectInfo;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.data.ProjectDataGateway;
+import io.pivotal.pal.tracker.allocations.tracker.eurekaserver.projects.data.ProjectRecord;
 import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
